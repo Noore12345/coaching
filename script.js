@@ -172,3 +172,20 @@ setInterval(() => {
     facultyTrack.style.transform = `translateX(-${facultyPosition}px)`;
 
 }, 3000);
+
+
+const resultTrack = document.querySelector(".result-track");
+
+let resultPosition = 0;
+
+setInterval(() => {
+
+    resultPosition += 285;
+
+    if (resultPosition >= resultTrack.scrollWidth - resultTrack.parentElement.offsetWidth) {
+        resultPosition = 0;
+    }
+
+    resultTrack.style.transform = `translateX(-${resultPosition}px)`;
+
+}, 3000);

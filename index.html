@@ -32,7 +32,6 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Courses</a></li>
-            <li><a href="#">Faculty</a></li>
             <li><a href="#">Results</a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Contact</a></li>
@@ -57,7 +56,6 @@
             </p>
 
             <div class="hero-buttons">
-                <button>Enroll Now</button>
                 <button class="contact-btn">Contact Us</button>
             </div>
         </div>
@@ -153,35 +151,43 @@
     </section>
 
     <!-- ===== Results ===== -->
-    <section class="results">
+   <section class="results">
     <h2>Top Results</h2>
 
-    <div class="result-container">
+    <div class="results-slider">
+        <div class="result-track">
 
-        <div class="student-card">
-            <img src="images/s1.jpg" alt="Student">
-            <h3>Rahul Kumar</h3>
-            <p><strong>Roll No:</strong> 202501</p>
-            <p><strong>Percentage:</strong> 96%</p>
+            <div class="student-card">
+                <img src="images/s1.jpg" alt="">
+                <h3>Rahul Kumar</h3>
+                <p><strong>Roll No:</strong> 202501</p>
+                <p><strong>Percentage:</strong> 96%</p>
+            </div>
+
+            <div class="student-card">
+                <img src="images/s1.jpg" alt="">
+                <h3>Priya Singh</h3>
+                <p><strong>Roll No:</strong> 202502</p>
+                <p><strong>Percentage:</strong> 95%</p>
+            </div>
+
+            <div class="student-card">
+                <img src="images/s1.jpg" alt="">
+                <h3>Aman Kumar</h3>
+                <p><strong>Roll No:</strong> 202503</p>
+                <p><strong>Percentage:</strong> 94%</p>
+            </div>
+
+            <div class="student-card">
+                <img src="images/s1.jpg" alt="">
+                <h3>Nujhat Parween</h3>
+                <p><strong>Roll No:</strong> 202504</p>
+                <p><strong>Percentage:</strong> 97%</p>
+            </div>
+
         </div>
-
-        <div class="student-card">
-            <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Student">
-            <h3>Priya Singh</h3>
-            <p><strong>Roll No:</strong> 202502</p>
-            <p><strong>Percentage:</strong> 95%</p>
-        </div>
-
-        <div class="student-card">
-            <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Student">
-            <h3>Aman Kumar</h3>
-            <p><strong>Roll No:</strong> 202503</p>
-            <p><strong>Percentage:</strong> 94%</p>
-        </div>
-
     </div>
 </section>
-
 
     <!-- ===== Faculty ===== -->
     <section class="faculty">
@@ -235,7 +241,7 @@
             <div class="review-card">
                 <img src="images/about.jpg" alt="">
                 <h4>Rahul Kumar</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vero sed, illo eos consequatur, explicabo quod quas corporis inventore magnam quibusdam fugit, ut itaque. Rerum reprehenderit dolor laborum quidem quos.</p>
+                <p>illo eos consequatur, explicabo quod quas corporis inventore magnam quibusdam fugit, ut itaque. Rerum reprehenderit dolor laborum quidem quos.</p>
             </div>
 
             <div class="review-card">
@@ -298,21 +304,73 @@
 
     </div>
 </section>
+<section class="contact">
 
-    <!-- ===== Contact ===== -->
-    <section class="contact">
-        <h2>Contact Us</h2>
+    <div class="contact-container">
 
-        <p>📍 Mithapur, Patna, Bihar</p>
-        <p>📞 +91 9876543210</p>
-        <p>✉ abc@gmail.com</p>
-    </section>
+        <!-- Office Address -->
+        <div class="contact-box">
+            <h3>Office Address</h3>
 
-    <!-- ===== Footer ===== -->
-    <footer>
-        <p>© 2026 ABC Coaching Institute. All Rights Reserved.</p>
-    </footer>
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Mithapur, Patna, Bihar
+            </p>
 
+            <p>
+                Near XYZ Chowk, Patna - 800001
+            </p>
+        </div>
+
+
+        <!-- Quick Contact -->
+        <div class="contact-box">
+
+            <h3>Quick Contact</h3>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                +91 9876543210
+            </p>
+
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                abc@gmail.com
+            </p>
+
+
+        </div>
+
+
+        <!-- Quick Links -->
+        <div class="contact-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="#">About</a></li>
+
+                <li><a href="#">Courses</a></li>
+
+                <li><a href="#">Faculty</a></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>
+        © 2026 AQ Institute of Mathematics | All Rights Reserved.
+    </p>
+
+</footer>
     <!-- JS -->
     <script src="script.js"></script>
 
